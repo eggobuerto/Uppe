@@ -1,0 +1,57 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+h1 {
+  font-size: 500%;
+}
+
+header {
+  display: flex;
+  background-color: black;
+  color: whitesmoke;
+  justify-content: center;
+  align-items: center;
+  margin: 0%;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+
+  margin: 1%;
+  padding: 2%;
+  white-space: nowrap;
+  justify-content: space-around;
+  align-items: baseline;
+  align-content: flex-start;
+  background-color: gray;
+}
+nav ul li a {
+  display: flex;
+  text-decoration: none;
+  color: black;
+  font-size: 300%;
+  padding: 30px;
+}
+li:hover {
+  background-color: rgb(73, 73, 73);
+  content: 20px;
+}
+.Profil {
+  padding: 20px;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: space-around;
+}
+.Profil p {
+  margin: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Profil img {
+  width: 30%;
+  height: 30%;
+}

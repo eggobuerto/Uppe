@@ -1,0 +1,62 @@
+header {
+  display: flex;
+  background-color: black;
+  color: whitesmoke;
+  justify-content: center;
+  align-items: center;
+  margin: 0%;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  font-size: 150%;
+}
+
+nav ul li a {
+  color: whitesmoke;
+  margin: 30px;
+}
+
+.poker {
+  padding: 20px;
+  margin: 20px;
+  border: 2px;
+  border-style: solid;
+}
+.poker div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.poker img {
+  width: 25%;
+}
+.poker p {
+  margin: 15px;
+}
+.poker h2 {
+  text-align: center;
+}
+
+.gaming {
+  margin: 20px;
+  border: 2px;
+  border-style: solid;
+}
+.gaming div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.gaming img {
+  width: 70%;
+  height: auto;
+}
+.gaming h2 {
+  text-align: center;
+}

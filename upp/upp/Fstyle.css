@@ -1,0 +1,18 @@
+header {
+  display: flex;
+  background-color: black;
+  color: whitesmoke;
+  justify-content: center;
+  align-items: center;
+  margin: 0%;
+}
+header a {
+  justify-content: flex-start;
+  color: whitesmoke;
+}
+.f div {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+}
